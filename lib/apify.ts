@@ -19,6 +19,8 @@ export interface ApifyInput {
   includeNSFW?: boolean;
   // Crawl comments
   crawlCommentsPerPost?: boolean;
+  // Custom URLs to scrape (for subreddits)
+  startUrls?: Array<{ url: string }>;
 }
 
 /**

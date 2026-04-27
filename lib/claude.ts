@@ -373,7 +373,7 @@ IMPORTANT: All titles MUST be under 60 characters. Use short, punchy titles.`;
         story.title,
         `The Story That Broke The Internet`,
         `You Won't Believe What Happened Next`,
-      ]).map(t => trimTitle(t));
+      ] as string[]).map((t: string) => trimTitle(t));
 
       return {
         titles: trimmedTitles,

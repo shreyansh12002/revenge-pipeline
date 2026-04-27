@@ -39,3 +39,4 @@ Thumbs.db
 supabase/.branches/
 supabase/.temp/
 supabase/config.toml
+.vercel
