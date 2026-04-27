@@ -1,0 +1,29 @@
+<h2>Story Workflow</h2>
+<p class="subtitle">How should stories move through the app?</p>
+
+<div class="options">
+  <div class="option" data-choice="linear" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Linear Pipeline</h3>
+      <p>Scrape → Filter → Generate Script → Generate YouTube Package → Export</p>
+      <p style="font-size:12px;color:#888;margin-top:4px">One-way flow, clear steps, guided journey</p>
+    </div>
+  </div>
+  <div class="option" data-choice="hub" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Hub & Spoke</h3>
+      <p>Stories are central hub. Generate scripts, YouTube packages, or export from any story independently.</p>
+      <p style="font-size:12px;color:#888;margin-top:4px">Flexible, non-linear, better for revisits</p>
+    </div>
+  </div>
+  <div class="option" data-choice="kanban" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Kanban Board</h3>
+      <p>Stories in columns: Raw | Scripted | Packaged | Exported</p>
+      <p style="font-size:12px;color:#888;margin-top:4px">Visual, great for batch workflows, gaming-style progress</p>
+    </div>
+  </div>
+</div>
